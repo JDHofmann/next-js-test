@@ -19,7 +19,16 @@ a {
 .container {
   width: 30vw;
   height: 30vw;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
   margin: 5vh auto;
   border-radius: 10px;
   -webkit-transition: .5s;
@@ -29,6 +38,11 @@ a {
 .container:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.container p {
+  font-size: 2em;
+  color: #404040;
 }
 
 .ct-0 {

@@ -15,10 +15,18 @@ export default function Home() {
       <GlobalStyle />
         <h1>
           Welcome</h1>
-          <div className="container ct-0 st-0"></div>
-          <div className="container ct-1 st-1"></div>
-          <div className="container ct-2 st-2"></div>
-          <div className="container ct-3 st-3"></div>
+          <div className="container ct-0 st-0">
+            <p>red</p>
+          </div>
+          <div className="container ct-1 st-1">
+            <p>gold</p>
+          </div>
+          <div className="container ct-2 st-2">
+            <p>green</p>
+          </div>
+          <div className="container ct-3 st-3">
+            <p>blue</p>
+          </div>
     </div>
   )
 }
