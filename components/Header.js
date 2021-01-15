@@ -29,6 +29,16 @@ const Header = () => (
                     <a>Second Post</a>
                 </Link>
             </li>
+            <li>
+                <Link as="/article/1" href="/article/[id]">
+                    <a>First Article</a>
+                </Link>
+            </li>
+            <li>
+                <Link as="/article/2" href="/article/[id]">
+                    <a>Second Article</a>
+                </Link>
+            </li>
         </ul>
     </header>
 )
