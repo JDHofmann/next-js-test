@@ -1,9 +1,27 @@
 html,
-body {
+body, li {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  padding: 5vh 5vw;
+  margin-bottom: 5vw;
+  background: #ccc;
+  
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header li {
+  padding: 1.5vh 1.5vw;
 }
 
 a {
