@@ -39,6 +39,11 @@ const Header = () => (
                     <a>Second Article</a>
                 </Link>
             </li>
+            <li>
+                <Link href="/login">
+                    <a>Login</a>
+                </Link>
+            </li>
         </ul>
     </header>
 )
