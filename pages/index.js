@@ -1,10 +1,18 @@
 import Header from '../components/Header'
-// import '../styles/style.scss'
+import styled, { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+`;
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <GlobalStyle />
         <h1>
           Welcome</h1>
           <div className="container ct-0 st-0"></div>
