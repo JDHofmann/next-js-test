@@ -45,6 +45,24 @@ const Header = () => (
                 </Link>
             </li>
         </ul>
+        <style jsx>{`
+            header {
+                width: 100%;
+                padding: 5vh 5vw;
+                margin-bottom: 5vw;
+                background: #ccc;
+                
+            }
+
+            header ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            header li {
+                padding: 1.5vh 1.5vw;
+            }
+        `}</style>
     </header>
 )
 

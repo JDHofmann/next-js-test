@@ -1,0 +1,57 @@
+html,
+body, li {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 30vw;
+  height: 30vw;
+  display: block;
+  margin: 5vh auto;
+  border-radius: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.ct-0 {
+  background: linear-gradient(135deg, #ff000040 20%, #ff000080);
+  -webkit-box-shadow: inset 0 0 25px 9px #ff000050;
+          box-shadow: inset 0 0 25px 9px #ff000050;
+}
+
+.ct-1 {
+  background: linear-gradient(135deg, #ff800050 20%, #ff800080);
+  -webkit-box-shadow: inset 0 0 25px 9px #ff800060;
+          box-shadow: inset 0 0 25px 9px #ff800060;
+}
+
+.ct-2 {
+  background: linear-gradient(135deg, #00800040 20%, #00800080);
+  -webkit-box-shadow: inset 0 0 25px 9px #00800050;
+          box-shadow: inset 0 0 25px 9px #00800050;
+}
+
+.ct-3 {
+  background: linear-gradient(135deg, #00008048 20%, #00008080);
+  -webkit-box-shadow: inset 0 0 25px 9px #00008050;
+          box-shadow: inset 0 0 25px 9px #00008050;
+}
+/*# sourceMappingURL=style.css.map */
